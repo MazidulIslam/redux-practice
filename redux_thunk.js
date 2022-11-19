@@ -7,7 +7,7 @@
 // middleware- redux-thunk
 // axios api
 
-const { default: axios } = require("axios");
+const axios = require("axios");
 const { createStore, applyMiddleware } = require("redux");
 const reduxThunk = require("redux-thunk").default;
 
