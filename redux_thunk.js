@@ -7,8 +7,10 @@
 // middleware- redux-thunk
 // axios api
 
+// Action to Reducer (by action type continue untill done all type)
+
 const axios = require("axios");
-const { createStore, applyMiddleware } = require("redux");
+const { createStore, applyMiddleware } = require("redux"); 
 const reduxThunk = require("redux-thunk").default;
 
 // define constants
